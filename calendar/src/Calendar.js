@@ -109,10 +109,6 @@ const Calendar = () => {
 
 // Some Spaghetti
 const CalendarTable = ({table, crossOutBegin, crossOutEnd}) => {
-  console.log('crossout>>> ', crossOutBegin)
-  console.log('crossoutEnd >>> ', crossOutEnd)
-  console.log('table >>> ', table);
-
   const fadeBlockBegin = (outindex, index, crossOutBegin) => {
     return outindex === 0 && index < crossOutBegin;
   }
@@ -127,11 +123,9 @@ const CalendarTable = ({table, crossOutBegin, crossOutEnd}) => {
   }
 
   return table.map((oneRow, outindex) => {    
-    console.log(oneRow[0]);
     return (        
       <tr key={outindex}>
         {oneRow[0].map((item, index) => {
-          console.log('something >>> ', `${outindex} ${index}`)
           return (fadeBlockBegin(outindex, index, crossOutBegin) || fadeBlockEnd(outindex, index, crossOutEnd) ? <td key={`${outindex}${index}`} className="fade">{item}</td> 
             : <td key={`${outindex}${index}`} className="">{item}</td>)
         })}
