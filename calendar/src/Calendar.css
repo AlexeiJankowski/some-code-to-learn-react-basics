@@ -1,0 +1,43 @@
+section {
+  margin: 1rem;
+  padding: 2rem;
+  min-width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0,0,0,0.15);
+}
+
+.calendar-container h2 {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.calendar-table {
+  margin-top: 1rem;
+}
+
+.month-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+tbody td {
+  margin: 0;
+  padding: 1rem;
+  border: 1px solid rgba(0,0,0,0.15);
+}
+
+tbody .fade {
+  background-color: rgba(0,0,0,0.06);
+  color: #ffffff;
+}
+
+.month-navigation button {
+  width: 3rem;
+  height: 3rem;
+  background-color: #ffffff;
+  border: 1px solid rgba(0,0,0,0.15);
+}
+
+

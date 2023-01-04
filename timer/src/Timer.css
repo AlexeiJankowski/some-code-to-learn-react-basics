@@ -8,6 +8,8 @@ main {
 }
 
 main h1 {
+  color: rgb(239,247,255);
+  text-shadow: 2px 2px 5px rgba(35,17,35, 0.75);
   font-size: 3rem;
   margin: 4rem;
 }
