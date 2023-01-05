@@ -1,0 +1,62 @@
+section {
+  margin-top: 10rem;
+  width: 100%; 
+}
+
+figure {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  margin: auto;
+  width: 60vw;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 1fr;
+  box-shadow: 1px 1px 3px 1px rgba(56, 33, 14, 0.4);
+}
+
+figure img {
+  width: 100%;
+  grid-column: 1/2;
+  grid-row: 1/4;
+}
+
+figure figcaption {
+  background-color: rgba(56, 33, 14, 0.4);
+  color: #ffffff;
+  grid-column: 1/2;
+  grid-row: 3/4;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}
+
+figcaption span {
+  margin-left: 2rem;
+  margin-right: auto;
+  grid-column: 1/4;
+  grid-row: 2/3;
+  font-size: 2rem;
+}
+
+.btn-container {
+  margin-right: 1rem;
+  margin-left: auto;  
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+.btn-container button {
+  margin: 0.1rem;
+  border-radius: 50%;
+  height: 1rem;
+  width: 1rem;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}
+
+.btn-container button:focus,
+.btn-container button:hover,
+.btn-container button:active  {
+  background-color: #ffffff;
+  transition: 1s;
+}
