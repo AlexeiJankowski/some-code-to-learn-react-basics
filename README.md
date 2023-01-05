@@ -12,7 +12,7 @@ A calendar. I don't really like Date in JS, so it's a good training for me...
 
 ![Screenshot](screens/calendar.png)
 
-## 03 What will it be?
+## 03 Slider?
 
 Kinda slider. It doesn't look amazing or even OK, because I've limited time for this element. 
 Photo was taken from 
