@@ -1,0 +1,107 @@
+/* Palette */
+:root {
+  --background: #ffffff;
+  --article-background: #ffffff;
+  --text: #000000;
+  --borders: rgba(0,0,0,0.35);
+  --button-filler: rgb(255, 0, 0);
+  --button-hover: rgba(236, 11, 67, 0.75);
+  --button-hover-shadow: rgba(0,0,0,0.5);
+  --button-hover-shadow-table: rgba(255,255,255,0.75);
+  --button-edit: #FF7F11;
+  --modal-background-start: rgba(0,0,0,0.65);
+  --modal-background: rgba(0,0,0,0.85);
+  --borders: rgba(0,0,0,0.35);
+  --input-shadow: rgba(0,0,0,0.15);
+  --table-even: rgba(0,0,0,0.05);
+  --table-hover: rgba(0,0,0,0.15);
+  --table-header:  rgba(0,0,0,0.25);
+  --error: red;
+}
+/* Palette end */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn {
+  padding: 0.5rem;
+  font-weight: bold;
+  color: var(--button-filler); 
+  text-decoration: none;
+  border: 0.15rem solid var(--button-filler);
+  border-bottom: 0.35rem solid var(--button-filler);
+  border-radius: 0.5rem;
+}
+.btn:hover {
+  cursor: pointer;
+  color: var(--text);
+  border-bottom: 0.35rem solid var(--button-hover);
+  box-shadow: 0px 1px 1px 1px var(--button-hover-shadow);
+  transition: 0.25s;  
+}
+.btn:active {
+  box-shadow: none;
+  transition: 0.15s;
+}
+
+.form__input-wrapper {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+}
+.form__label {
+  flex-grow: 1;
+}
+.form__input {
+  padding: 0.45rem;
+  border: 1px solid var(--borders);
+  border-radius: 5px;
+  margin: 0.25rem;
+}
+.form__textarea {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid var(--borders);
+}
+
+@media screen and (min-width: 0px) {
+  .container {
+    width: 90%;
+    min-height: 70vh;
+    margin: 1rem auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 80%;
+    margin: 3rem auto;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 60%;
+    min-height: 70vh;
+    margin: 3rem auto;
+  }
+}
+
+.article--frame {
+  border: 1px solid var(--borders);
+  border-radius: 5px;
+  padding: 2rem;
+  box-shadow: 1px 1px 2px 2px var(--input-shadow);
+}

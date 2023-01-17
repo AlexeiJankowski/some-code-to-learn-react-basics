@@ -20,4 +20,10 @@ Photo was taken from
 
 ![Screenshot](screens/slider.png)
 
-## 04 What will it be?
+## 04 Simple Website
+
+React/Jsx based site with NodeJS backend using mock data.
+
+![Screenshot](screens/Site-1.png)
+![Screenshot](screens/Site-2.png)
+![Screenshot](screens/Site-3.png)

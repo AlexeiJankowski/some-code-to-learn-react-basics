@@ -18,8 +18,6 @@ const images = [
 const Slider = () => {
   const [showSlide, setShowSlide] = useState(0);
 
-  console.log(showSlide);
-
   return (
     <section>
       <Slide image={images[showSlide]} >

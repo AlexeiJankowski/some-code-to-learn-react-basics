@@ -1,0 +1,30 @@
+.form__add-post--edit-user {
+  margin-bottom: 0.75rem;
+  padding: 1rem;
+  border: 1px solid var(--borders);
+  border-radius: 5px;
+}
+
+.form__add-post--edit-user:hover {
+  box-shadow: 1px 1px 2px 2px var(--input-shadow);
+  transition: 0.5s;
+}
+
+.form__input-wrapper--edit-user {
+  margin: 1rem 0;
+  width: 100%;
+  display: flex;
+}
+
+.form__label--edit-user {
+  flex-grow: 0;
+  min-width: 20%;
+}
+
+.form__input--edit-user {
+  flex-grow: 1;
+}
+
+.link__forgot-password {
+  font-size: 0.85rem;
+}

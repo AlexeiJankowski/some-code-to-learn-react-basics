@@ -1,0 +1,17 @@
+.article {
+  font-size: 1.15rem;
+  line-height: 1.5;
+  margin: 1rem auto;
+  background-color: var(--article-background);
+}
+
+.article img {
+  margin: auto;
+  width: 100%;
+  border: 1px solid var(--article-background);
+}
+
+.article .author {
+  margin: 2rem auto;
+}
+

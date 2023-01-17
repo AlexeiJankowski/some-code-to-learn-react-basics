@@ -1,0 +1,24 @@
+.form__input-wrapper--add-post {
+  margin: 1rem 0;
+  width: 100%;
+  display: flex;
+}
+
+.form__label--add-post {
+  flex-grow: 0;
+}
+
+.form__input--add-post {
+  flex-grow: 1;
+}
+
+.form__textarea--add-post {
+  margin-top: 1rem;
+  padding: 1rem;
+  resize: none;
+  box-sizing: border-box;
+}
+
+.btn__form--add-post {
+  margin-top: 1rem;
+}

@@ -1,0 +1,36 @@
+.btn__container {
+  display: flex;
+  align-items: center;
+  align-content: flex-end;
+  margin: 0 0.75rem;
+}
+
+.btn__table {
+  font-size: 0.9rem;
+  margin: 0 0.15rem;
+  color: var(--text);
+}
+.btn__table:hover {
+  color: var(--text);    
+  border: 0.15rem solid var(--button-hover-shadow-table);
+  border-bottom: 0.35rem solid var(--button-hover-shadow-table);
+  box-shadow: 0px 1px 1px 1px var(--button-hover-shadow-table);
+  transition: 0.35s;
+}
+
+.btn__table--edit {
+  background-color: transparent;
+  border: 0.15rem solid var(--button-edit);
+  border-bottom: 0.35rem solid var(--button-edit);
+}
+.btn__table--edit:active {
+  background-color: transparent;
+  border: 0.15rem solid var(--button-edit);
+  border-bottom: 0.35rem solid var(--button-edit);
+}
+.btn__table--edit:hover {
+  background-color:var(--button-edit);  
+}
+.btn__table--delete:hover {
+  background-color:var(--button-filler);  
+}

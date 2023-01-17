@@ -1,0 +1,19 @@
+footer {
+  display: flex;
+  align-items: center;
+  background-color: var(--article-background);
+  border-top: 1px solid var(--borders);
+  margin-top: 2rem;
+}
+
+footer .logo {
+  margin: 0.75rem auto;
+  padding: 0.5rem;
+  color: var(--button-filler);
+  text-decoration: none;
+  border: 6px solid var(--button-filler);
+}
+
+footer .logo h1 {
+  margin: 0;
+}

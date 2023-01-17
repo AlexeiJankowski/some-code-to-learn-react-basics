@@ -1,0 +1,40 @@
+.container__result-table {
+  font-size: 1.25rem;
+  width: 100%;
+}
+
+.table-header__result-table,
+.table-description__result-table {
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.table-header__result-table {
+  background-color: var(--table-header);
+}
+
+.table-row-posts:nth-child(even) {
+  background-color: var(--table-even);
+}
+
+.table-row-posts:hover {
+  background-color: var(--table-hover);
+}
+
+.table {
+  width: 100%;
+  border: none;
+}
+
+.table-description__result-table--button-container {
+  width: 0.1%;
+  white-space: nowrap;
+}
+
+.empty-table__wrapper {
+  display: flex;
+}
+
+.empty-table__heading {
+  margin: 2rem auto;
+}
